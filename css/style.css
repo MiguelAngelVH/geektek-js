@@ -3,16 +3,16 @@ body {margin:0; background:#111; padding:0px; font:13px Verdana,Arial}
 #slideshow span {display:none}
 #wrapper {width:960px; margin:1px auto; display:none}
 #wrapper * {margin:0; padding:0}
-#fullsize {position:absolute; bottom:40px; width:955px; height:303px; padding:2px; border:1px solid #ccc; background:#000}
-#information {position:relative; bottom:0; width:955px; height:0; background:#000; color:#fff; overflow:hidden; z-index:150; opacity:.7; filter:alpha(opacity=70)}
+#fullsize {position:relative; bottom:40px; width:955px; height:303px; padding:2px; border:1px solid #ccc; background:#000}
+#information {position:absolute; bottom:0; width:955px; height:0; background:#000; color:#fff; overflow:hidden; z-index:10; opacity:.7; filter:alpha(opacity=70)}
 #information h3 {padding:4px 8px 3px; font-size:16px}
 #information p {padding:0 8px 8px}
 #image {width:955px}
-#image img {position:absolute; z-index:140; width:955px; height:303px;}
-.imgnav {position:absolute; width:25%; height:303px; cursor:pointer; z-index:150}
+#image img {position:absolute; z-index:7; width:955px; height:303px;}
+.imgnav {position:absolute; width:25%; height:303px; cursor:pointer; z-index:12}
 #imgprev {left:0; background:url(https://lh4.googleusercontent.com/-y4dr1AcjOJM/UEXMTqEyudI/AAAAAAAAAHs/C5kgJZAUraU/s48/left.gif) left center no-repeat}
 #imgnext {right:0; background:url(https://lh4.googleusercontent.com/-ttWENj3q3Pc/UEXMTo-40AI/AAAAAAAAAHw/vSqvXC0-HCs/s48/right.gif) right center no-repeat}
-#imglink {position:absolute; height:303px; width:100%; z-index:160; opacity:.4; filter:alpha(opacity=40)}
+#imglink {position:absolute; height:303px; width:100%; z-index:11; opacity:.4; filter:alpha(opacity=40)}
 .linkhover {background:url(https://lh3.googleusercontent.com/-nmwCWTz4has/UEXMTqg9gPI/AAAAAAAAAII/UEjqHJi28Ek/s48/link.gif) center center no-repeat}
 #thumbnails {margin-top:-33px}
 #slideleft {float:left; width:20px; height:81px; background:url(https://lh6.googleusercontent.com/-xgBC_iH8Qg0/UEXMTz72VgI/AAAAAAAAAH4/gjAhbyufTK8/s25/scroll-left.gif) center center no-repeat; background-color:#222}
